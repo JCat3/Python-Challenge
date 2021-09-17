@@ -1,0 +1,28 @@
+# import os module  and module for reading csv file
+import os
+import csv
+
+# path to collect data from resources folder
+budget_csv = os.path.join("..", "Resources", "budget_data.csv")
+
+# Read CSV module
+with open(budget_csv) as csv_file:
+
+    # add CSV reader
+    csv_reader = csv.reader(csv_file, delimiter=",")
+
+    # for row in csv_reader:
+       # print(row)
+
+    
+
+        # loop through looking for Date
+       # date = row[0]
+       # profit_losses = row[1]
+
+        # for budget_csv in 
+
+
+
+
+
