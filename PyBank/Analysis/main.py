@@ -23,11 +23,12 @@ with open(budget_csv) as csv_file:
         #count months
         total_months = total_months + 1
 
-        print (total_months)
 
     # loop through looking for Date
         date = row[0]
         profit_losses = row[1]
 
-        
-        # for budget_csv in 
+# print months
+print(f"Total Months: {total_months}")        
+
+# for budget_csv in 
